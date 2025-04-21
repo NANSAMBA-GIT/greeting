@@ -6,3 +6,8 @@ jobs:
     steps:
       - name: first-step
         run: echo "hello uganda"
+  second-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: second-step
+        run: echo "hello africa"
